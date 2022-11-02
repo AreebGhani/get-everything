@@ -1,0 +1,138 @@
+.NavBar {
+  overflow: visible;
+  top: 0;
+  width: 100%;
+  position:relative;
+  height:56px;
+  z-index:997;
+}
+.NavBar nav {
+  position: fixed;
+}
+
+@media only screen and (min-width:900px) and (max-width : 5000px) {
+    .Header {
+      padding-top: 10px;
+      position: relative;
+    }
+    .button {
+        font-weight: bolder;
+    }
+    .privacypolicy{
+      padding: 50px;
+    }
+    .nav-container {
+      padding-left: 100px;
+      padding-right: 50px;
+    }
+  }
+  
+  @media only screen and (min-width:700px) and (max-width : 899px) {
+    .Header {
+
+        position: relative;
+      }
+    .header {
+        font-size: 40px;
+    }
+    .button {
+        font-weight: bolder;
+    }
+    .privacypolicy{
+      padding: 40px;
+    }
+    .nav-container {
+      padding-left: 100px;
+      padding-right: 50px;
+    }
+  }
+  
+  @media only screen and (min-width:500px) and (max-width : 699px) {
+    .Header {
+
+        position: relative;
+      }
+    .header {
+        font-size: 30px;
+    }
+    .button {
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    .header-p {
+        font-size: 15px;
+    }
+    .privacypolicy{
+      padding: 30px;
+    }
+    .privacypolicy h1{
+      font-size: 50px;
+    }
+    .privacypolicy h3{
+      font-size: 35px;
+    }
+    .privacypolicy h4{
+      font-size: 30px;
+    }
+  }
+  
+  @media only screen and (min-width:300px) and (max-width : 499px) {
+    .Header {
+
+        position: relative;
+      }
+    .header {
+        font-size: 25px;
+    }
+    .button {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .header-p {
+        font-size: 15px;
+    }
+    .privacypolicy{
+      padding: 20px;
+    }
+    .privacypolicy h1{
+      font-size: 40px;
+    }
+    .privacypolicy h3{
+      font-size: 30px;
+    }
+    .privacypolicy h4{
+      font-size: 25px;
+    }
+  }
+
+  @media only screen and (min-width:200px) and (max-width : 299px) {
+    .Header {
+
+        position: relative;
+      }
+    .header {
+        font-size: 20px;
+    }
+    .button {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .header-p {
+        font-size: 10px;
+    }
+    .privacypolicy{
+      padding: 10px;
+    }
+    .privacypolicy h1{
+      font-size: 35px;
+    }
+    .privacypolicy h3{
+      font-size: 25px;
+    }
+    .privacypolicy h4{
+      font-size: 20px;
+    }
+    .privacypolicy p {
+      font-size: 12px;
+    }
+  }

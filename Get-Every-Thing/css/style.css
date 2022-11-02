@@ -1,0 +1,113 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By GET-EVERY-THING
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, sans-serif;
+} 
+
+nav ul a,
+nav .brand-logo {
+  font-weight: bolder;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  nav .brand-logo {
+    font-size: 19px;
+    font-weight: bolder;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+@media only screen and (min-width:600px) and (max-width : 900px) {
+  nav .brand-logo {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (min-width:360px) and (max-width : 599px) {
+  nav .brand-logo {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width : 359px) {
+  nav .brand-logo {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (min-width:280px) and (max-width : 319px) {
+  nav .brand-logo {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+}
+
+.footer_links{
+  font-weight: bold;
+  color: #fff;
+
+}
+
+.footer_links:hover{
+  font-weight: bolder;
+  color: yellow;
+}
+
+.copyright_link{
+  font-weight: bold;
+  color: rgb(255, 255, 134);
+}
+
+.copyright_link:hover{
+  font-weight: bolder;
+  color: yellow;
+}

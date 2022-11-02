@@ -1,0 +1,5 @@
+.cookie{overflow:hidden;bottom:0;z-index:999;padding:10px;font-weight:lighter;font-size:smaller;}
+.banner{position:fixed;}
+.link{cursor: pointer;}
+.ok{cursor: pointer;font-weight: bold;background:gray;}
+.ok:hover{background:teal;color:yellow;}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://get-everything.ga/</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/weight-mass-converter</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/length-distance-converter</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/area-converter</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/speed-converter</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/geteverything/logout</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/login</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/tools</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/privacy_policy</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/terms-&amp;-conditions</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/disclaimer</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/home</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/about</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/contact</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/signup</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://get-everything.ga/privacy_policy.html</loc>
+  <lastmod>2021-10-22T16:05:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

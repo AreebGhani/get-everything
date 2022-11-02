@@ -1,0 +1,2 @@
+@media only screen and (min-width:900px) and (max-width : 1050px) {.nav-content{padding-left: 20px;padding-right: 20px;}}
+@media only screen and (min-width:1051px) and (max-width : 5000px) {.nav-content{padding-left: 100px;padding-right: 50px;}}

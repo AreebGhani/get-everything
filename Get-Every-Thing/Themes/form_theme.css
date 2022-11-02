@@ -1,0 +1,12 @@
+:root {--background-color: #fff;--text-color: #000;}
+[data-theme="dark"] {--background-color: #3F3F3F;--text-color: #fff;--filter: brightness(0.5) contrast(1.2);--fill: #efefef;}
+body {background-color: var(--background-color);color: var(--text-color);}
+.h1 {background-color: var(--background-color);color: var(--text-color);}
+.main-block {background: var(--background-color);color:var(--text-color);border: solid 1px var(--text-color);border-radius: 15px; }
+form {background: var(--background-color);color: var(--text-color);}
+label {background: var(--background-color);color: var(--text-color);}
+input[type=text], input[type=password] {background: var(--background-color);color: var(--text-color);}
+.btn-block {background: var(--background-color);color: var(--text-color);}
+.container {background: var(--background-color);color: var(--text-color);}
+.g-recaptcha {position: relative;width: 100%;overflow: hidden;}
+.g-recaptcha > * {float: center;margin: -10px -10px -10px -10px;}

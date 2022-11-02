@@ -1,0 +1,67 @@
+RewriteEngine on
+
+RewriteRule ^geteverything/App.css  Get-Every-Thing/css/App.css [NC,L]
+RewriteRule ^geteverything/style.css  Get-Every-Thing/css/style.css [NC,L]
+RewriteRule ^geteverything/materialize.css  Get-Every-Thing/css/materialize.css [NC,L]
+RewriteRule ^geteverything/SocialButton.css  Get-Every-Thing/css/SocialButton.css [NC,L]
+RewriteRule ^geteverything/bootstrap-icons.css  Get-Every-Thing/css/bootstrap-icons/font/bootstrap-icons.css [NC,L]
+RewriteRule ^geteverything/form.css  Get-Every-Thing/css/form.css [NC,L]
+RewriteRule ^geteverything/theme.css  Get-Every-Thing/Themes/theme.css [NC,L]
+RewriteRule ^geteverything/form_theme.css  Get-Every-Thing/Themes/form_theme.css [NC,L]
+RewriteRule ^geteverything/nav.css  Get-Every-Thing/css/nav.css [NC,L]
+RewriteRule ^geteverything/cookie.css  Get-Every-Thing/css/cookie.css [NC,L]
+
+RewriteRule ^geteverything/favicon  Get-Every-Thing/favicon.ico [NC,L]
+
+RewriteRule ^geteverything/background_img1  Get-Every-Thing/img/bg.jpg [NC,L]
+RewriteRule ^geteverything/background_img2  Get-Every-Thing/img/bg1.jpg [NC,L]
+RewriteRule ^geteverything/background_img3  Get-Every-Thing/img/bg2.jpg [NC,L]
+
+RewriteRule ^geteverything/carousel_img1  Get-Every-Thing/img/img1.jpg [NC,L]
+RewriteRule ^geteverything/carousel_img2  Get-Every-Thing/img/img2.jpg [NC,L]
+RewriteRule ^geteverything/carousel_img3  Get-Every-Thing/img/img3.jpg [NC,L]
+RewriteRule ^geteverything/carousel_img4  Get-Every-Thing/img/img4.jpg [NC,L]
+
+RewriteRule ^geteverything/form_bg  Get-Every-Thing/img/form_bg.jpg [NC,L]
+
+RewriteRule ^geteverything/init.js  Get-Every-Thing/js/init.js [NC,L]
+RewriteRule ^geteverything/materialize.js  Get-Every-Thing/js/materialize.js [NC,L]
+RewriteRule ^geteverything/recaptcha_api.js  Get-Every-Thing/js/recaptcha_api.js [NC,L]
+RewriteRule ^geteverything/min_convert_2.js  Get-Every-Thing/js/min_convert_2.js [NC,L]
+
+RewriteRule ^home  Get-Every-Thing/index.php [NC,L]
+RewriteRule ^about  Get-Every-Thing/pages/about.php [NC,L]
+RewriteRule ^contact  Get-Every-Thing/pages/contact.php [NC,L]
+RewriteRule ^disclaimer  Get-Every-Thing/pages/disclaimer.php [NC,L]
+RewriteRule ^privacy_policy  Get-Every-Thing/pages/privacy_policy.php [NC,L]
+RewriteRule ^terms-&-conditions  Get-Every-Thing/pages/terms-&-conditions.php [NC,L]
+RewriteRule ^error  Get-Every-Thing/pages/error.php [NC,L]
+
+RewriteRule ^Share-On-Gmail  Get-Every-Thing/social_links/gmail.php [NC,L]
+RewriteRule ^Share-On-Facebook  Get-Every-Thing/social_links/facebook.php [NC,L]
+RewriteRule ^Share-On-WhatsApp  Get-Every-Thing/social_links/whatsapp.php [NC,L]
+RewriteRule ^Share-On-Twitter  Get-Every-Thing/social_links/twitter.php [NC,L]
+RewriteRule ^Share-On-Instagram  Get-Every-Thing/social_links/instagram.php [NC,L]
+
+RewriteRule ^login  Get-Every-Thing/forms/account_registration/login.php [NC,L]
+RewriteRule ^geteverything/logout  Get-Every-Thing/forms/account_registration/logout.php [NC,L]
+RewriteRule ^recover_email  Get-Every-Thing/forms/account_registration/recover_email.php [NC,L]
+RewriteRule ^logout_redirect  Get-Every-Thing/forms/account_registration/logout_redirect.php [NC,L]
+RewriteRule ^reset_password  Get-Every-Thing/forms/account_registration/reset_password.php [NC,L]
+RewriteRule ^geteverything/reset_restriction  Get-Every-Thing/forms/account_registration/reset_restriction.php [NC,L]
+RewriteRule ^signup  Get-Every-Thing/forms/account_registration/signup.php [NC,L]
+
+RewriteRule ^geteverything/contact_home  Get-Every-Thing/forms/contact/contact_home.php [NC,L]
+RewriteRule ^geteverything/contact_page  Get-Every-Thing/forms/contact/contact_page.php [NC,L]
+
+RewriteRule ^tools  Get-Every-Thing/tools/tools.php [NC,L]
+RewriteRule ^weight-mass-converter  Get-Every-Thing/tools/converters/weight-mass-converter.php [NC,L]
+RewriteRule ^length-distance-converter  Get-Every-Thing/tools/converters/length-distance-converter.php [NC,L]
+RewriteRule ^area-converter  Get-Every-Thing/tools/converters/area-converter.php [NC,L]
+RewriteRule ^speed-converter  Get-Every-Thing/tools/converters/speed-converter.php [NC,L]
+RewriteRule ^temperature-converter  Get-Every-Thing/tools/converters/temperature-converter.php [NC,L]
+RewriteRule ^time-converter  Get-Every-Thing/tools/converters/time-converter.php [NC,L]
+
+RewriteRule ^sitemap.xml  Get-Every-Thing/sitemap.xml [NC,L]
+
+ErrorDocument 404 /error.php
